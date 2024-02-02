@@ -1,0 +1,8 @@
+alias dcup='docker compose up'
+alias dcd='docker compose down'
+alias dcr='docker compose run app ruby'
+alias dcirb='docker compose run app irb'
+
+drun() {
+    docker compose run app ruby $1
+}
